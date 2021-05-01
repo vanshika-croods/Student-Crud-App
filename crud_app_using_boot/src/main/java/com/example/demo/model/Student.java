@@ -14,7 +14,7 @@ import lombok.Setter;
 @Setter
 
 @Entity
-@Table(name="student_table")
+@Table(name="student_tbl")
 public class Student {
 	
 	@Id
@@ -23,12 +23,8 @@ public class Student {
 	
 	private long s_id;
 	
-	private String firstName;
+	private String student_name;
 	
-	private String lastName;
-	
-	private String userName;
-	
-	private String password;
-	
+	private String contactNumber;
 }
+
